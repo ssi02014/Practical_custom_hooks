@@ -6,7 +6,7 @@ const Input = () => {
   const attr = useInput("", maxLen);
   return (
     <div>
-      <h1>Hello, useInput Hook value: {attr.value}</h1>
+      <h1>useInput Hook value: {attr.value}</h1>
       <h2>Start Editing to see some Magic happen!</h2>
       <input type="text" placeholder="name" {...attr} />
     </div>
